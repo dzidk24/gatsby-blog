@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0 2em;
+    height: 200px;
+    align-items: baseline;
+}
+
+
+.title {
+    color: #000000;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: .6rem 0 0;
+}
+
+.nav-list {
+    padding: 70px 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.nav-item {
+    color: #000000;
+    font-size: 1.2em;
+    margin-right: 1.3em;
+    text-decoration: none;
+    font-family: 'Nova Mono', monospace;
+
+}
+
+.nav-item:hover {
+    color: #818181;
+}
+
+.active-nav-item {
+    color: #333333;
+}

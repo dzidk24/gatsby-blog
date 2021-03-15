@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+.intro {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.rightIntro {
+    width: 50%;
+}
+
+.leftIntro {
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.leftIntro h1 {
+    font-size: 120px;
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.leftIntro h2 {
+    font-size: 27px;
+    margin-bottom: 16px;
+}
+
+.leftIntro p {
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.leftIntro div {
+    margin-bottom: 4rem;
+}
+
+.paragraph {
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.intro {
+    display: flex;
+}
+
+
+.leftIntro {
+   flex-grow: 1;
+}
+
+.leftIntro img {
+    height: 83.7%;
+}
+
+.rightPic {
+    width: 40%;
+}
+
+////////////////////
+
+.introTwo {
+    display: flex;
+    margin-bottom: 3rem;
+    background: rgb(243, 243, 243);
+    
+}
+
+
+.introTwoLeft {
+     width: 40%;
+}
+
+
+.hello {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 65px;
+    left: 55px;
+    
+}
+
+.guys {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 65px;
+    position: relative;
+    top: 100px;
+    left: 100px;   
+}
+
+
+
+.introTwoRight {
+    height: 450;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    width: 60%;
+    color: rgb(71, 71, 71);
+    font-size: 26px;
+    font-family: 'PT Serif', serif;
+    text-align:justify;
+    line-height: 1.6;
+}
+
+///////////////////
+.introThree {
+    background: rgb(209, 181, 181);
+}
+
+
+.bookWrapper {
+     display: flex;
+     width: 80%;
+     margin: auto;
+}
+
+
+.book {
+   width: 25%;
+   
+}
+
+.book img {
+    margin-top: 1rem;
+}
+
+.bookNotes {
+    width: 80%;
+    padding-left: 4rem;
+}
+
+.bookNotes div{ 
+     font-weight: 500;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+     line-height: 1.6;
+     margin-top: 2rem;   
+     
+}
+
+.bookNotes div span {
+    font-weight: 700;
+}
+
